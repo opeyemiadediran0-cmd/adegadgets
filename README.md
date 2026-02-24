@@ -1,0 +1,209 @@
+[DOCTYPE html.htm](https://github.com/user-attachments/files/25514095/DOCTYPE.html.htm)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ade Gadgets</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f6f9;
+}
+
+/* HEADER */
+header{
+background:#0a3d62;
+color:white;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+nav{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* HERO */
+.hero{
+background:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:2rem;
+margin-bottom:10px;
+}
+
+/* FLYER */
+.flyer{
+padding:40px 20px;
+text-align:center;
+background:#ffffff;
+}
+
+.flyer img{
+width:100%;
+max-width:650px;
+border-radius:15px;
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* PRODUCTS */
+.products{
+padding:40px 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card h3{
+margin:12px 0;
+}
+
+.card button{
+padding:10px 15px;
+border:none;
+border-radius:6px;
+background:#25D366;
+color:white;
+cursor:pointer;
+}
+
+/* WHATSAPP */
+.whatsapp{
+background:white;
+padding:50px 20px;
+text-align:center;
+}
+
+.whatsapp a{
+display:inline-block;
+margin:10px;
+padding:14px 22px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.channel{ background:#128C7E; }
+.dm{ background:#25D366; }
+
+/* FOOTER */
+footer{
+background:#0a3d62;
+color:white;
+text-align:center;
+padding:18px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">ADE GADGETS</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Your Trusted Gadget Store</h1>
+<p>Buy • Sell • Swap Premium Devices</p>
+</section>
+
+<section class="flyer">
+<h2>Latest Promotion</h2>
+<img src="flyer.jpg" alt="Ade Gadgets Flyer">
+</section>
+
+<section class="products" id="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+<h3>Android Phones</h3>
+<button onclick="window.location.href='https://wa.me/2349131342642'">Order Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd">
+<h3>iPhones</h3>
+<button onclick="window.location.href='https://wa.me/2349131342642'">Order Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1585790050230-5dd28404ccb9">
+<h3>Tablets</h3>
+<button onclick="window.location.href='https://wa.me/2349131342642'">Order Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853">
+<h3>Laptops</h3>
+<button onclick="window.location.href='https://wa.me/2349131342642'">Order Now</button>
+</div>
+
+</section>
+
+<section class="whatsapp" id="contact">
+<h2>Connect With Us</h2>
+
+<a class="channel" href="https://whatsapp.com/channel/0029Vb7CYB17DAWtdn90Q423" target="_blank">
+Join WhatsApp Channel
+</a>
+
+<a class="dm" href="https://wa.me/2349131342642" target="_blank">
+Chat on WhatsApp
+</a>
+</section>
+
+<footer>
+© 2026 Ade Gadgets — Lagos Nigeria
+</footer>
+
+</body>
+</html>
